@@ -1,0 +1,4 @@
+suites:
+    path_suite:
+        namespace: ginacontrino
+        psr4_prefix: ginacontrino
