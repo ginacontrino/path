@@ -42,12 +42,6 @@ class Path implements PathInterface
 
             $filteredPath = '/' . $filteredPath;
         }
-        // compare last multi-byte character against '/'
-        //        if ( $filteredPath != '/' &&
-        //            (count($path)-1) == mb_strrpos( $path, '/', 'UTF-8' ) ) {
-        //
-        //            $filteredPath .= '/';
-        //        }
 
         return $filteredPath;
     }
